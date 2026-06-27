@@ -268,46 +268,69 @@ Embedded in every `.3mf` file. Open in Bambu Studio — settings load automatica
 
 ## Bill of Materials
 
-### Hardware
+> 💡 **AliExpress links** are provided for every non-printed part below. Links go to search results rather than individual listings — search results stay current as listings come and go. Prices are approximate at time of writing; AliExpress pricing changes frequently.
 
-| Item | Qty | Notes |
-|------|-----|-------|
-| NEMA 17 stepper (40 mm body) | 1 | 1.5 A, 59 Ncm min |
-| A4988 stepper driver module | 1 | With heatsink |
-| Arduino Nano (ATmega328P) | 1 | CH340 USB-C variant |
-| M8 × 1.25 threaded rod, 200 mm | 1 | Stainless — lead screw |
-| M8 flange nut | 2 | One captured in lower dome |
-| **M10 stainless rod, 100 mm** | 1 | **Hinge pin (upgraded from V1 M8)** |
-| F688ZZ flanged bearing (8 × 16 × 5) | 1 | Lead screw lower end |
-| Flexible shaft coupler 5 mm → 8 mm | 1 | Motor to lead screw |
-| Omron SS-5 micro-switch | 2 | Limit: open + closed |
-| M5 × 16 cap head bolt | 6 | Base ring → adapter plate |
-| M4 × 16 cap head bolt | 12 | Dome flanges |
-| M4 × 8 cap head bolt | 8 | Motor bracket |
-| M4 hex nut | 20 | |
-| M3 × 8 cap head bolt | 4 | Motor face bolts |
-| **M10 × 12 mm brass knurled insert** | 1 | Alt/Az: tripod thread in adapter |
-| **3/8" to M10 tripod adaptor** | 1 | Alt/Az mode |
-| **M4 × 12 cap head bolt** | 4 | EQ: adapter to wedge top plate |
-| 3 mm foam strip, 700 mm | 1 | Weather seal groove |
-| Epoxy (Araldite Rapid) | 1 tube | Flange joint reinforcement |
-| USB-A to USB-C cable, 1 m | 1 | Arduino serial to host |
-| 12 V PSU, 2 A | 1 | Stepper power |
-| DC barrel jack 5.5/2.1 mm | 2 | |
-| DuPont jumper wires | 20 | |
+### Electronics
+
+| Item | Qty | Spec | AliExpress |
+|------|-----|------|------------|
+| NEMA 17 stepper motor | 1 | 40 mm body, 1.5 A, 4-lead (17HS4401) | [🔗 Search](https://www.aliexpress.com/w/wholesale-nema-17-stepper-motor-40mm.html) |
+| A4988 stepper driver | 1 | With aluminium heatsink | [🔗 Search](https://www.aliexpress.com/w/wholesale-a4988-stepper-driver-heatsink.html) |
+| Arduino Nano | 1 | ATmega328P, CH340, USB-C | [🔗 Search](https://www.aliexpress.com/w/wholesale-arduino-nano-ch340-usb-c-atmega328p.html) |
+| DuPont jumper wires | 20 | 20 cm, mixed M-F and M-M | [🔗 Search](https://www.aliexpress.com/w/wholesale-dupont-jumper-wires-20cm.html) |
+| USB-A to USB-C cable | 1 | 1 m, for Arduino serial | [🔗 Search](https://www.aliexpress.com/w/wholesale-usb-a-to-usb-c-cable-1m.html) |
+| 12 V 2 A DC power supply | 1 | 5.5/2.1 mm barrel jack, regulated | [🔗 Search](https://www.aliexpress.com/w/wholesale-12v-2a-dc-power-supply-adapter.html) |
+| DC barrel jack socket | 2 | 5.5/2.1 mm panel mount | [🔗 Search](https://www.aliexpress.com/w/wholesale-dc-barrel-jack-5.5-2.1mm-panel.html) |
+
+### Motion & Mechanical
+
+| Item | Qty | Spec | AliExpress |
+|------|-----|------|------------|
+| M8 × 1.25 threaded rod | 1 | 200 mm, 304 stainless — lead screw | [🔗 Search](https://www.aliexpress.com/w/wholesale-m8-threaded-rod-200mm-stainless.html) |
+| M10 smooth rod | 1 | 100 mm, stainless — hinge pin | [🔗 Search](https://www.aliexpress.com/w/wholesale-m10-stainless-steel-rod-100mm.html) |
+| M8 flange nut | 2 | Stainless, 1.25 mm pitch | [🔗 Search](https://www.aliexpress.com/w/wholesale-m8-flange-nut-stainless.html) |
+| F688ZZ flanged bearing | 1 | 8 × 16 × 5 mm, shielded | [🔗 Search](https://www.aliexpress.com/w/wholesale-f688zz-flanged-bearing-8x16x5.html) |
+| Flexible shaft coupler | 1 | 5 mm → 8 mm, aluminium jaw type | [🔗 Search](https://www.aliexpress.com/w/wholesale-flexible-shaft-coupler-5mm-8mm.html) |
+| Omron SS-5GL micro-switch | 2 | 5 A 125 V, lever, NO/NC — limit switches | [🔗 Search](https://www.aliexpress.com/w/wholesale-omron-ss-5gl-micro-switch.html) |
+
+### Fasteners & Inserts
+
+| Item | Qty | Spec | AliExpress |
+|------|-----|------|------------|
+| M10 brass knurled insert | 1 | 10 × 12 mm heat-set — Alt/Az tripod thread | [🔗 Search](https://www.aliexpress.com/w/wholesale-m10-brass-knurled-insert-nut.html) |
+| M5 × 16 cap head bolt | 6 | Stainless — base ring to adapter | [🔗 Search](https://www.aliexpress.com/w/wholesale-m5-x-16mm-socket-cap-bolt-stainless.html) |
+| M4 × 16 cap head bolt | 12 | Stainless — dome flanges | [🔗 Search](https://www.aliexpress.com/w/wholesale-m4-x-16mm-cap-head-bolt-stainless.html) |
+| M4 × 12 cap head bolt | 4 | Stainless — EQ adapter to wedge | [🔗 Search](https://www.aliexpress.com/w/wholesale-m4-x-12mm-cap-head-bolt-stainless.html) |
+| M4 × 8 cap head bolt | 8 | Stainless — motor bracket | [🔗 Search](https://www.aliexpress.com/w/wholesale-m4-x-8mm-cap-head-bolt-stainless.html) |
+| M3 × 8 cap head bolt | 4 | Stainless — motor face bolts | [🔗 Search](https://www.aliexpress.com/w/wholesale-m3-x-8mm-socket-cap-bolt-stainless.html) |
+| M4 hex nut | 20 | Stainless | [🔗 Search](https://www.aliexpress.com/w/wholesale-m4-hex-nut-stainless-steel.html) |
+| M5 hex nut | 6 | Stainless | [🔗 Search](https://www.aliexpress.com/w/wholesale-m5-hex-nut-stainless-steel.html) |
+| Brass insert nut assortment | 1 set | M3/M4/M5 heat-set, for PETG | [🔗 Search](https://www.aliexpress.com/w/wholesale-brass-heat-set-insert-nut-m3-m4-m5.html) |
+
+### Consumables & Alt/Az Specific
+
+| Item | Qty | Spec | AliExpress |
+|------|-----|------|------------|
+| 3/8" to M10 tripod thread adaptor | 1 | Alt/Az mode only | [🔗 Search](https://www.aliexpress.com/w/wholesale-3-8-inch-to-m10-tripod-adapter.html) |
+| 3 mm foam weatherstrip | 1 | 700 mm length, self-adhesive | [🔗 Search](https://www.aliexpress.com/w/wholesale-3mm-foam-weatherstrip-self-adhesive.html) |
+| Epoxy adhesive | 1 | 2-part, e.g. Araldite Rapid type | [🔗 Search](https://www.aliexpress.com/w/wholesale-two-part-epoxy-adhesive-rapid.html) |
+
+> ⚠️ **AliExpress note:** Always check seller ratings and order a few extra of small parts (bolts, nuts, inserts). The M8 threaded rod search will return both smooth and threaded variants — make sure you select **threaded** (fully threaded, M8 × 1.25 pitch). For the M10 hinge pin search **smooth rod** not threaded.
 
 ### Approximate Cost (UK)
 
 | Category | Approx. |
 |----------|---------|
 | PETG filament × 3 spools | £42 |
-| NEMA 17 stepper | £12 |
-| A4988 + Arduino Nano | £8 |
-| M8/M10 hardware | £8 |
-| M5/M4/M3 fasteners + inserts | £6 |
-| Flexible coupler + micro-switches | £5 |
-| PSU + wiring | £8 |
-| **Total** | **~£89** |
+| NEMA 17 + A4988 + Arduino Nano | £20 |
+| M8/M10 rods + flanged bearing | £8 |
+| Flexible coupler + micro-switches | £6 |
+| Fasteners, inserts, nuts, bolts | £7 |
+| PSU, barrel jacks, wiring | £8 |
+| Foam strip, epoxy | £4 |
+| 3/8"–M10 tripod adaptor | £4 |
+| **Total (excl. filament)** | **~£53** |
+| **Total (incl. filament)** | **~£95** |
 
 ---
 
