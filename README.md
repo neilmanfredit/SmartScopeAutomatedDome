@@ -188,7 +188,7 @@ If you build either version, photos of the completed dome are very welcome — o
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE) — CC BY-NC-SA 4.0, non-commercial use only.
+Copyright © Neil Manfred. Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Commercial use and derivative works are not permitted. — see [LICENSE](LICENSE) — CC BY-NC-SA 4.0, non-commercial use only.
 
 ---
 
