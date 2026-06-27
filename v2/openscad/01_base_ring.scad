@@ -99,4 +99,6 @@ module base_ring_v2() {
     }
 }
 
-base_ring_v2();
+// Translate to ensure Z-min = 0 on build plate
+translate([0, 0, 8])
+    base_ring_v2();

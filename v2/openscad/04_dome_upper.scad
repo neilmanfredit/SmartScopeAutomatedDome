@@ -129,4 +129,7 @@ module dome_upper_v2() {
     }
 }
 
-dome_upper_v2();
+// Translate to ensure Z-min = 0 on build plate
+// Sealing lip and foam groove extend below z=0, lift by 23
+translate([0, 0, 23])
+    dome_upper_v2();

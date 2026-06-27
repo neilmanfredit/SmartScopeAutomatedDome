@@ -113,4 +113,7 @@ module dome_lower_v2() {
     }
 }
 
-dome_lower_v2();
+// Translate to ensure Z-min = 0 on build plate
+// Bottom flange sits at z=-8, lift by 8
+translate([0, 0, 8])
+    dome_lower_v2();
