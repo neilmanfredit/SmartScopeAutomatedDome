@@ -124,4 +124,6 @@ module base_ring_v3() {
     }
 }
 
-base_ring_v3();
+// Lift to ensure Z-min = 0 on build plate (bottom flange drops to ~-5.4mm)
+translate([0, 0, 6])
+    base_ring_v3();

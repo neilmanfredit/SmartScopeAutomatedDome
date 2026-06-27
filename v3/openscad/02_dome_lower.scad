@@ -153,4 +153,7 @@ module dome_lower_v3() {
     }
 }
 
-dome_lower_v3();
+// Lift to ensure Z-min = 0 on build plate
+// Encoder hub extends to -(LS_BEAR_H+6) = -14mm below shell base
+translate([0, 0, 15])
+    dome_lower_v3();
