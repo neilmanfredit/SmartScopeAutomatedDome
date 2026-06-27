@@ -3,7 +3,7 @@
 > **3D-printed automated observatory domes for the ZWO Seestar S50**  
 > Three versions — choose the one that fits your setup and ambition.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-gold.svg)](LICENSE)
 [![INDI Compatible](https://img.shields.io/badge/INDI-Compatible-blue.svg)](https://indilib.org)
 [![Printer: Bambu H2S](https://img.shields.io/badge/Printer-Bambu%20H2S-green.svg)](https://bambulab.com)
 [![Material: PETG](https://img.shields.io/badge/Material-PETG-orange.svg)](https://bambulab.com)
@@ -188,7 +188,7 @@ If you build either version, photos of the completed dome are very welcome — o
 
 ## Licence
 
-MIT — see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE) — CC BY-NC-SA 4.0, non-commercial use only.
 
 ---
 
