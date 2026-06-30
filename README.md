@@ -217,3 +217,15 @@ The Orion Nebula (M42) captured from Bodmin Moor on New Year's Eve 2025. Bodmin 
 *Captured with the ZWO Seestar S50, 31 December 2025 — Bodmin Moor, Cornwall.*
 
 The Orion Nebula (M42) captured from Bodmin Moor on New Year's Eve 2025. Bodmin Moor is one of the darkest sites in southern England, and the skies here show it — the image reveals the Trapezium cluster blazing at the core, four young massive stars responsible for ionising the surrounding gas and producing the characteristic red hydrogen-alpha glow. The Running Man Nebula (NGC 1977) is visible in the upper left, its blue reflection nebulosity contrasting with the warmer tones of M42. Dark dust lanes cut through the nebula, forming the distinctive fish-mouth shape around the bright central region. The Orion Nebula sits approximately 1,344 light years from Earth and is one of the most studied star-forming regions in the Milky Way. A stellar result from a 50mm aperture scope under genuinely dark skies.
+
+---
+
+## Gallery
+
+### M42 — Orion Nebula
+
+![Seestar S50 picture of M42](images/m42_orion_nebula.jpg)
+
+*Captured with the ZWO Seestar S50, 31 December 2025 — Bodmin Moor, Cornwall.*
+
+The Orion Nebula (M42) captured from Bodmin Moor on New Year's Eve 2025. Bodmin Moor is one of the darkest sites in southern England, and the skies here show it — the image reveals the Trapezium cluster blazing at the core, four young massive stars responsible for ionising the surrounding gas and producing the characteristic red hydrogen-alpha glow. The Running Man Nebula (NGC 1977) is visible in the upper left, its blue reflection nebulosity contrasting with the warmer tones of M42. Dark dust lanes cut through the nebula, forming the distinctive fish-mouth shape around the bright central region. The Orion Nebula sits approximately 1,344 light years from Earth and is one of the most studied star-forming regions in the Milky Way. A stellar result from a 50mm aperture scope under genuinely dark skies.
