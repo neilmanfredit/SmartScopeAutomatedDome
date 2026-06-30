@@ -3,7 +3,7 @@
 > **3D-printed automated observatory domes for the ZWO Seestar S50**  
 > Three versions — choose the one that fits your setup and ambition.
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-gold.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-gold.svg)](LICENSE)
 [![INDI Compatible](https://img.shields.io/badge/INDI-Compatible-blue.svg)](https://indilib.org)
 [![Printer: Bambu H2S](https://img.shields.io/badge/Printer-Bambu%20H2S-green.svg)](https://bambulab.com)
 [![Material: PETG](https://img.shields.io/badge/Material-PETG-orange.svg)](https://bambulab.com)
@@ -30,7 +30,7 @@ Three versions exist, each adding capability on top of the last. You don't need 
 | **INDI slave mode** | No | Yes — dome tracks scope azimuth automatically |
 | **Az encoder** | None | TCRT5000 IR, 36-slot, 0.0375°/step |
 | **Drive options** | M8 lead screw | Ring gear + pinion OR friction wheel |
-| **Est. build cost** | ~£89 | ~£140 |
+| **Est. build cost (incl. filament)** | ~£95 | ~£221 |
 | **Est. print time** | ~25 h | ~38 h |
 | **Complexity** | Moderate | High |
 | **README** | **[→ v2/README.md](v2/README.md)** | **[→ v3/README_V3_ADDENDUM.md](v3/README_V3_ADDENDUM.md)** |
@@ -188,20 +188,8 @@ If you build either version, photos of the completed dome are very welcome — o
 
 ## Licence
 
-Copyright © Neil Manfred. Licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. Commercial use and derivative works are not permitted. — see [LICENSE](LICENSE) — CC BY-NC-SA 4.0, non-commercial use only.
+MIT — see [LICENSE](LICENSE).
 
 ---
 
 *Built by [@neilmanfredit](https://github.com/neilmanfredit)*
-
----
-
-## Gallery
-
-### M42 — Orion Nebula
-
-![Seestar S50 picture of M42](images/m42_orion_nebula.jpg)
-
-*Captured with the ZWO Seestar S50, 31 December 2025 — Bodmin Moor, Cornwall.*
-
-The Orion Nebula (M42) captured from Bodmin Moor on New Year's Eve 2025. Bodmin Moor is one of the darkest sites in southern England, and the skies here show it — the image reveals the Trapezium cluster blazing at the core, four young massive stars responsible for ionising the surrounding gas and producing the characteristic red hydrogen-alpha glow. The Running Man Nebula (NGC 1977) is visible in the upper left, its blue reflection nebulosity contrasting with the warmer tones of M42. Dark dust lanes cut through the nebula, forming the distinctive fish-mouth shape around the bright central region. The Orion Nebula sits approximately 1,344 light years from Earth and is one of the most studied star-forming regions in the Milky Way. A stellar result from a 50mm aperture scope under genuinely dark skies.

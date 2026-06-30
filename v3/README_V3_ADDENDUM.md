@@ -140,23 +140,39 @@ All small parts on one plate. Export by module name for individual printing.
 
 ## Additional Hardware (V3 only)
 
-| Item | Qty | AliExpress |
-|------|-----|------------|
-| 300 mm lazy-susan bearing | 1 | [🔗 Search](https://www.aliexpress.com/w/wholesale-300mm-lazy-susan-bearing-turntable.html) |
-| 8 mm OD smooth rod, 300 mm (guide rods) | 2 | [🔗 Search](https://www.aliexpress.com/w/wholesale-8mm-smooth-rod-300mm-linear.html) |
-| LM8UU linear bearing | 4 | [🔗 Search](https://www.aliexpress.com/w/wholesale-lm8uu-linear-bearing.html) |
-| M6 × 1.0 threaded rod, 150 mm (×2) | 2 | [🔗 Search](https://www.aliexpress.com/w/wholesale-m6-threaded-rod-150mm-stainless.html) |
-| F626ZZ flanged bearing (6×19×6) | 2 | [🔗 Search](https://www.aliexpress.com/w/wholesale-f626zz-flanged-bearing.html) |
-| M6 flexible shaft coupler 5 mm→6 mm | 2 | [🔗 Search](https://www.aliexpress.com/w/wholesale-flexible-shaft-coupler-5mm-6mm.html) |
-| NEMA 17 stepper motor (×3 total) | 3 | [🔗 Search](https://www.aliexpress.com/w/wholesale-nema-17-stepper-motor-40mm.html) |
-| A4988 stepper driver with heatsink (×3) | 3 | [🔗 Search](https://www.aliexpress.com/w/wholesale-a4988-stepper-driver-heatsink.html) |
-| Arduino Mega 2560 | 1 | [🔗 Search](https://www.aliexpress.com/w/wholesale-arduino-mega-2560-ch340.html) |
-| TCRT5000 IR reflective sensor | 1 | [🔗 Search](https://www.aliexpress.com/w/wholesale-tcrt5000-ir-reflective-sensor.html) |
-| Omron SS-5GL micro-switch (×4 total) | 4 | [🔗 Search](https://www.aliexpress.com/w/wholesale-omron-ss-5gl-micro-switch.html) |
-| 30 mm rubber wheel (friction drive) | 1 | [🔗 Search](https://www.aliexpress.com/w/wholesale-30mm-rubber-wheel-shaft.html) |
-| 6-wire slip ring, 12 mm OD | 1 | [🔗 Search](https://www.aliexpress.com/w/wholesale-6-wire-slip-ring-12mm.html) |
+> 💡 Prices are approximate AliExpress pricing at time of writing and will vary by seller. V3-specific hardware only — common items shared with V2 (M8 rod, F688ZZ bearing, M4/M5 fasteners, etc.) are in the [main V2 BOM](../v2/README.md#bill-of-materials) and not repeated here.
 
-> **Slip ring note:** The 6-wire slip ring routes the panel motor wires (6 wires: coil A+B for Motor 2, coil A+B for Motor 3, plus 2 limit switch wires) through the dome centre bore as it rotates. You can omit it if you have sufficient cable slack for 360° rotation without a slip ring — 500 mm of extra cable on each wire is usually enough for a dome that only ever sweeps ±180°.
+| Item | Qty | Approx. Cost | AliExpress |
+|------|-----|-------------|------------|
+| 300 mm lazy-susan bearing | 1 | £9 | [🔗 Search](https://www.aliexpress.com/w/wholesale-300mm-lazy-susan-bearing-turntable.html) |
+| 8 mm OD smooth rod, 300 mm (guide rods) | 2 | £6 | [🔗 Search](https://www.aliexpress.com/w/wholesale-8mm-smooth-rod-300mm-linear.html) |
+| LM8UU linear bearing | 4 | £4 | [🔗 Search](https://www.aliexpress.com/w/wholesale-lm8uu-linear-bearing.html) |
+| M6 × 1.0 threaded rod, 150 mm (×2) | 2 | £4 | [🔗 Search](https://www.aliexpress.com/w/wholesale-m6-threaded-rod-150mm-stainless.html) |
+| F626ZZ flanged bearing (6×19×6) | 2 | £3 | [🔗 Search](https://www.aliexpress.com/w/wholesale-f626zz-flanged-bearing.html) |
+| M6 flexible shaft coupler 5 mm→6 mm | 2 | £4 | [🔗 Search](https://www.aliexpress.com/w/wholesale-flexible-shaft-coupler-5mm-6mm.html) |
+| NEMA 17 stepper motor (×3 total) | 3 | £30 | [🔗 Search](https://www.aliexpress.com/w/wholesale-nema-17-stepper-motor-40mm.html) |
+| A4988 stepper driver with heatsink (×3) | 3 | £9 | [🔗 Search](https://www.aliexpress.com/w/wholesale-a4988-stepper-driver-heatsink.html) |
+| Arduino Mega 2560 | 1 | £12 | [🔗 Search](https://www.aliexpress.com/w/wholesale-arduino-mega-2560-ch340.html) |
+| TCRT5000 IR reflective sensor | 1 | £2 | [🔗 Search](https://www.aliexpress.com/w/wholesale-tcrt5000-ir-reflective-sensor.html) |
+| Omron SS-5GL micro-switch (×4 total) | 4 | £6 | [🔗 Search](https://www.aliexpress.com/w/wholesale-omron-ss-5gl-micro-switch.html) |
+| 30 mm rubber wheel (friction drive) | 1 | £3 | [🔗 Search](https://www.aliexpress.com/w/wholesale-30mm-rubber-wheel-shaft.html) |
+| 6-wire slip ring, 12 mm OD | 1 | £6 | [🔗 Search](https://www.aliexpress.com/w/wholesale-6-wire-slip-ring-12mm.html) |
+| **V3-specific subtotal** | | **£98** | |
+
+> **Slip ring note:** The 6-wire slip ring routes the panel motor wires (6 wires: coil A+B for Motor 2, coil A+B for Motor 3, plus 2 limit switch wires) through the dome centre bore as it rotates. You can omit it if you have sufficient cable slack for 360° rotation without a slip ring — 500 mm of extra cable on each wire is usually enough for a dome that only ever sweeps ±180°. Omitting it saves £6.
+
+### Total Build Cost (V3 complete)
+
+V3 reuses the M8 lead screw, F688ZZ bearing, fasteners, foam seal, and tripod/EQ adapter hardware from V2 — those costs carry over alongside the V3-specific items above.
+
+| | Without filament | With filament |
+|---|---|---|
+| V2 shared hardware (excl. filament) | £53 | £53 |
+| V3-specific hardware (above) | £98 | £98 |
+| PETG filament (~5 spools total, V2 dome shells + V3 parts) | — | £70 |
+| **Total** | **£151** | **£221** |
+
+> Filament estimate covers all V3 plates (base ring ~260g, dome shell ~330g, crown frame + panels ~390g, drive hardware ~110g — roughly 1.1kg / 1.5 spools) plus the shared V2 dome shells if not already printed (~3 spools). If you've already built V2 and are upgrading to V3, you only need the extra ~1.5 spools for the new V3-specific parts, bringing the incremental cost to roughly **£98–£130** depending on spool pricing.
 
 ---
 
